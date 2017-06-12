@@ -179,3 +179,9 @@ DEPENDENCIES
   sinatra
   stripe
   tux
+
+RUBY VERSION
+   ruby 2.2.1p85
+
+BUNDLED WITH
+   1.15.0
