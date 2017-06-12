@@ -9,7 +9,7 @@ body {
 }
 
 header.main-header {
-  background: url('/img/christmasgoat.jpg') no-repeat;
+  background: url('/img/bballbackground.jpg') no-repeat;
   background-size: cover;
   padding: 60px 0;
   color: #fff;
@@ -65,7 +65,7 @@ h1 {
   max-width: 700px;
   margin: 0 auto;
   font-size: 21px;
-  
+
   line-height: 28px;
   text-shadow: 0 0 5px rgba(0,0,0,.2);
   padding: 0 40px;
@@ -89,7 +89,7 @@ h1 {
   max-width: 1184px;
   margin: 0 auto;
   font-size: 0;
-  background: url('/img/folksbg.jpg') no-repeat;
+  background: url('/img/bballbg.jpg') no-repeat;
   background-size: cover;
   color: #00a5a5;
 }
@@ -192,7 +192,7 @@ h3.offer {
     padding-top: 0; height: 0px; overflow: hidden;
     margin: 0 auto;
 }
- 
+
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -310,7 +310,7 @@ h3.offer {
 }
 
 .thanks-header {
-  background: url('/img/treepattern.jpg');
+  background: #C0C0C0;
   width: 100%;
   padding-top: 100px;
   margin-bottom: 100px;
@@ -353,7 +353,7 @@ h3.offer {
 }
 
 .goal-container {
-  background: url('/img/treepattern.jpg');
+  background: url('/img/logobg.png');
   height: 100%;
   padding: 0;
   margin: 0;
@@ -383,7 +383,7 @@ h3.offer {
 .goal-numbers {
   display: inline-block;
   margin-right: 20px;
-  color: green;
+  color: orange;
   font-weight: 800;
   font-size: 70px;
 }
