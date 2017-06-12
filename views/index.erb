@@ -1,12 +1,13 @@
 <header class="main-header">
     <div class="row">
-      <h1>Give the Gift
-        <span>of the Outdoors</span>
+      <h1>Help Eléos build
+        <span>a Shared Space</span>
       </h1>
-      <p class="description">Pooooo</a></p>
+      <p class="description">Partner with us in our vision to to restore a former warehouse in the Nicholtown neighborhood to be used for tutoring and classes throughout the week, for the benefit of our students and the whole neighborhood. We want to equip our students along with members of our community to be successful in whatever their next step is, and we need your help to do it!</p>
       <div class="video-container-container">
       <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/Exc6otteNoQ" frameborder="0" allowfullscreen></iframe>
+        <!--<iframe src="https://www.youtube.com/embed/Exc6otteNoQ" frameborder="0" allowfullscreen></iframe>-->
+        <iframe src="https://player.vimeo.com/video/220350204" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
       </div>
     </div>
@@ -36,7 +37,8 @@
   <div class="container">
     <div class="row footer">
       <div class="col-md-6">
-        <p>To learn more about <a href="http://goattrips.org">GOAT</a>, you can visit our website at <a href="http://goattrips.org">goattrips.org</a> or on <a href="http://facebook.com/goattrips">facebook</a>.</p>
+        <p>To learn more about <a href="http://eleosministry.com">Eleos Ministry</a>, you can visit our website at <a href="http://eleosministry.com">eleosministry.com</a> or on <a href="http://www.facebook.com/Eleosministry">facebook</a>.</p>
+        <p>Eleos is a program of <a href="http://goattrips.org">GOAT</a>, a 501(c)3 organization. All donations are tax deductible.</p>
         <p>All donations are processed securely by <a href="http://stripe.com">Stripe</a>.</p>
       </div>
     </div>
@@ -49,7 +51,7 @@
 
       var handler = StripeCheckout.configure({
         key: '<%= settings.publishable_key %>',
-        name: "Great Outdoor Adventure Trips",
+        name: "Eleos Ministry",
         image: 'img/160x160.jpg',
         allowRememberMe: 'false',
         billingAddress: 'true',
