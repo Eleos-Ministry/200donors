@@ -73,41 +73,21 @@ post '/charge' do
   mail = Mail.deliver do
 
   to customer.email
-  from 'Ryan McCrary <ryan@goattrips.org>'
-  subject 'GOAT Christmas!'
+  from 'Cam Hill <cam@eleosministry.com>'
+  subject 'Thank you!'
   text_part do
-    body "Thank you so much for participating in GOAT Christmas! We're constantly amazed at the generosity of each of you who make GOAT possible for the kids that we serve.
+    body "Thank you so much for your generous contribution to our \"shared space\" project! We believe this space will allow us to empower our neighbors in new and necessary ways as we continue the mission of Eleos in the Nicholtown community! This project is a lofty one, but we believe it's what God has called us to. And your generosity is a tangible reminder of God's faithfulness to us, as we step out in faith towards that call! We are beyond grateful for you and your generosity!
 
-We hope you'll share this with your friends and family and help us finish this fundraiser out before the end of the year.
-
-We'll also be sending you a small thank you in the following weeks, so keep an eye on your mailbox. You'll also recieve a tax receipt first thing next year!
-
-Thanks again so much, and please let us know if you have any questions about GOAT or GOAT Christmas!
-
-Merry Christmas!
-
-Ryan & The GOAT Team
-
-PS - You can keep up with the progress at http://www.goatchristmas.com/goal
+The Eleos Team
 
 
 "
   end
   html_part do
     content_type 'text/html; charset=UTF-8'
-    body "<p>Thank you so much for participating in GOAT Christmas! We're constantly amazed at the generosity of each of you who make GOAT possible for the kids that we serve.</p>
+    body "<p>Thank you so much for your generous contribution to our \"shared space\" project! We believe this space will allow us to empower our neighbors in new and necessary ways as we continue the mission of Eleos in the Nicholtown community! This project is a lofty one, but we believe it's what God has called us to. And your generosity is a tangible reminder of God's faithfulness to us, as we step out in faith towards that call! We are beyond grateful for you and your generosity!</p>
 
-<p>We hope you'll share this with your friends and family and help us finish this fundraiser out before the end of the year.</p>
-
-<p>We'll also be sending you a small thank you in the following weeks, so keep an eye on your mailbox. You'll also recieve a tax receipt first thing next year!</p>
-
-<p>Thanks again so much, and please let us know if you have any questions about GOAT or GOAT Christmas!</p>
-
-<p>Merry Christmas!</p>
-
-<p>Ryan & The GOAT Team</p>
-
-<p>PS - You can keep up with the progress at http://www.goatchristmas.com/goal</p><br /><br /><br />"
+<p>The Eleos Team</p>"
   end
   end
 
