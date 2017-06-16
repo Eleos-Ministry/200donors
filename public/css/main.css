@@ -320,11 +320,11 @@ h3.offer {
   background: #fff;
   padding: 30px;
   font-size: 45px;
-  color: red;
+  color: #686868;
   margin: 0 auto -60px;
   width: 80%;
   text-shadow: none;
-  border: 10px solid red;
+  border: 10px solid #686868;
   border-radius: 15px;
   max-width: 600px;
 }
@@ -348,7 +348,7 @@ h3.offer {
 
 .donation-total,
 .your-donation {
-  color: green;
+  color: orange;
   font-weight: 800;
 }
 
