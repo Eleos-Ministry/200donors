@@ -78,7 +78,7 @@ post '/charge' do
   text_part do
     body "Thank you so much for your generous contribution to our \"shared space\" project! We believe this space will allow us to empower our neighbors in new and necessary ways as we continue the mission of Eleos in the Nicholtown community! This project is a lofty one, but we believe it's what God has called us to. And your generosity is a tangible reminder of God's faithfulness to us, as we step out in faith towards that call! We are beyond grateful for you and your generosity!
 
-The Eleos Team
+The Éleos Team
 
 
 "
@@ -87,7 +87,7 @@ The Eleos Team
     content_type 'text/html; charset=UTF-8'
     body "<p>Thank you so much for your generous contribution to our \"shared space\" project! We believe this space will allow us to empower our neighbors in new and necessary ways as we continue the mission of Eleos in the Nicholtown community! This project is a lofty one, but we believe it's what God has called us to. And your generosity is a tangible reminder of God's faithfulness to us, as we step out in faith towards that call! We are beyond grateful for you and your generosity!</p>
 
-<p>The Eleos Team</p>"
+<p>The Éleos Team</p>"
   end
   end
 
